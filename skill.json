@@ -1,0 +1,35 @@
+{
+  "name": "genpark-agentic-software-engineer-code-synthesis-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Agentic software engineer for full-stack application code synthesis & bug fixing.",
+  "author": "genpark",
+  "category": "developer",
+  "tags": [
+    "agentic-engineer",
+    "code-synthesis",
+    "bug-fixer",
+    "fullstack-ai",
+    "ph-august14"
+  ],
+  "inputs": {
+    "feature_prompt": {
+      "type": "string"
+    },
+    "target_stack": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "generated_files_count": {
+      "type": "integer"
+    },
+    "unit_test_coverage_pct": {
+      "type": "number"
+    },
+    "synthesis_status": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
